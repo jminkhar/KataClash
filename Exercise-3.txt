@@ -1,0 +1,30 @@
+Now that we have our troop units ready is time to see some action.
+
+Each unit has the ability to move around the map in different ways.
+The map is splited in equaly divided space units.
+There are 3 types of movement behaviours:
+	- Walk - when a unit walks it can cover 3 map spaces in 1 second
+	- TunnelUnder - when a unit tunnels under it can cover 5 map spaces in 1 second
+	- Fly - when a unit flies it can cover 8 map spaces in 1 second
+
+Our troop units movement type is the following:
+	- Bomber => Walk
+	- Giant  => Walk
+	- Dragon => Fly
+	- Miner  => TunnelUnder
+
+Question 1:
+    - Provide the code implementation of the Move action for each of the troop units above
+	- All tests included into the namespace "Ex3.java" should pass
+
+* Estimated time: 5-15 minutes *
+
+Question2: 
+
+=> Uncomment the Q2 tests and comment With_Bomber_Unit_For_1_second_Then_It_Should_Walk_And_Cover_3_Map_Spaces
+
+	- We have decided that the bomber moves too slow so we want him to run :)
+	- Implement the Run behaviour : when a unit runs it can cover 6 map spaces into one second
+	- All tests included into the namespace "Ex3.java" should pass
+
+* Estimated time: 5-10 minutes *

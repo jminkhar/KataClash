@@ -1,0 +1,24 @@
+We are going to build a game. No game knowldege needed to resolve the exercises :)
+
+As with most of the games the essential need are resources.
+We have several type of resources : gems, gold, blue elixir and black elixir.
+The purpose of our first exercise is to validate our black elixir production formula. 
+Our black elixir is extracted from
+deep inside earth by greedy dwarfs and they are not happy if we do not pay the correct price.
+
+The rules are simple:
+	- For producing black elixir two other resources are needed gems and blue elixir
+	- The formula states that for producing 100 units of black elixir we need 5 gems and 200 units  of blue elixir
+	  or 2 gems and 500 units of blue elixir
+	- If quantity of gems supplied is bellow 2 gems or 200 units of blue elixir the dwarfs are not happy 
+	- If the quantities suplied are not the exact ones (or exact multiplication of them) the dwars are also not happy they 
+	do not like complex computations and will ask you to pay the exact price
+	- BlackElixir is produced by BlackElixirFactory building
+
+The purpose of the exercise:
+	- write all tests defined in the "Ex1.java" based on the information provided above 
+	- the code which should be covered by tests is found in "BlackElixirFactory.java"
+	- are all the tests defined enough to cover all cases ?  if not please complete with the missing tests
+
+* Estimated time: 5-10 minutes *
+

@@ -1,0 +1,47 @@
+So we are advancing well in our development, nice job :0 . It is time to add some troops into our game play.
+Troops are tricky little thing our game can have troops which can be produced with blue or black elixir.
+In order to produce troops you will have to have some training camps (training camps are buiddings responsible for producing your troops).
+Training camps can be of 2 types 
+	- "BlueTrainingCamp" which can train the following troops consuming blue elixir resources : Bomber, Giant and Miner
+	- "BlackTrainingCamp" which can train the following consuming black elixir resources : Dragon
+	
+Each unit has offensive and defensive hitpoints as described bellow:
+ - "Dragon" | OffensiveHitpoints: 7500 | DefensiveHitpoints: 5000 |
+ - "Giant"  | OffensiveHitpoints: 3000 | DefensiveHitpoints: 4500 |
+ - "Miner"  | OffensiveHitpoints: 1200 | DefensiveHitpoints:  800 |
+ - "Bomber" | OffensiveHitpoints:  800 | DefensiveHitpoints:  350 |
+
+
+ Question 1:
+  - Based on the information provided above please complete the implementation of the units : Dragon,Bomber,Giant and Miner
+  in order to pass all tests included in  "Ex2.java"
+  - Feel free to describe your solution and what are you planning to do.
+  - Very important: You are not allowed to change the tests, the purpose of the exercise is to complete the implementation and 
+  make the tests valid
+ 
+ * Estimated time: 5-10 minutes *
+
+ Question 2:
+	When a unit takes a hit his life (DefensiveHitpoints) are decresing based on the offensiveHitpoint of the attack.
+	When the unit Defensive Hitpoints are equal to 0 or fall bellow 0 the unit emits a last message shout before dyning .
+	Each unit has a special shout message which it emits when is dying:
+	  - "Dragon" - "I WILL RISE AGAIN FROM THE ASHES"
+	  - "Giant"  - "OUR IRON FISTS WILL BE REMEMBERED FOREVER"
+	  - "Bomber" - "WHEN YOU play with Explosives is dangerous bussiness"
+	  - "Miner"  - "we return in the ground"
+  
+  Your role is to finish the implementation of the "ReceiveHit" method for all units in order to pass all tests 
+  included in unde the namespace: "Ex2.java"
+    
+ * Estimated time: 5-10 minutes *
+
+ Question 3:
+	You arrived at a step where you have implemented quite a few things. Is there something you would have done differrent or you would want to
+	refactor ? Explain your ideas and suggestions.
+
+	Implement them.
+
+ * Estimated time: 5-15 minutes *
+
+
+
